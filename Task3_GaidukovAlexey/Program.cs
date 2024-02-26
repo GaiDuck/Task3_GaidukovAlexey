@@ -63,7 +63,7 @@ namespace Task3_GaidukovAlexey
 
         void ConvertToFahrenheit(double degreesCelsius)
         {
-            double degreesFahrenheit = degreesCelsius*5/9 + 32;
+            double degreesFahrenheit = degreesCelsius*1.8 + 32;
             Console.WriteLine($"Градусы Цельсия: {degreesCelsius} -> Градусы Фаренгейта: {degreesFahrenheit}.");
         }
     }
